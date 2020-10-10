@@ -41,8 +41,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
-ol {
-    font-size: 1.2em;
-    line-height:150%;
-}
