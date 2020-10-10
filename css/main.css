@@ -42,4 +42,6 @@ ul.posts li {
     list-style: none;
 }
 
-ol {line-height:120%}
+ol {
+    line-height:120%
+}
