@@ -38,6 +38,8 @@
 html,
 body {
     overflow-x: hidden;
+    text-align: justify;
+    width: 70%;
 }
 
 html {
