@@ -2,25 +2,62 @@
 layout: default
 title: Hao Zou - Homepage
 ---
+
 <div class="about">
-	<p> 	
-		I am currently a joint postdoc at <a href="http://www.bimsa.cn" target="_blank" rel="noopener noreferrer">BIMSA</a> and <a href="https://ymsc.tsinghua.edu.cn/cn" target="_blank" rel="noopener noreferrer">YMSC, Tsinghua</a>. I received my PhD degree in physics at <a href="https://www.phys.vt.edu" target="_blank" rel="noopener noreferrer">Virginia Tech</a>.
-	</p>
-	
-	
-	<h2> Contact information </h2>
-	<p>
-	Hao Zou <br>Beijing Insitute of Mathematical Sciences and Applications <br>Huairou District, Beijing 101408, China
-	</p>	
-	<p>
-	Office: Room 1119, Fengyeju (Villa 11), Yanqi Island <br> E-mail: hzou "at" bimsa.cn, hzou "at" vt.edu
-	</p>
-	
-	
-	<p style="font-size:18px";> <strong>Useful links:</strong>
-		<a href="https://ymsc-strings.github.io" target="_blank" rel="noopener noreferrer">String Group at YMSC</a> | 
-		<a href="https://www.stringwiki.org/wiki/String_Theory_Wiki" target="_blank" rel="noopener noreferrer">String Theory Wiki</a> | 
-		<a href="http://mathsci.kaist.ac.kr/~jinhyun/useful.html" target="_blank" rel="noopener noreferrer">Some mathematical resources</a> |
-		<a href="http://researchseminars.org" target="_blank" rel="noopener noreferrer">Online seminars</a> 
-	</p>
+  <p>   
+    I am currently a joint postdoc at <a href="http://www.bimsa.cn" target="_blank" rel="noopener noreferrer">BIMSA</a> and <a href="https://ymsc.tsinghua.edu.cn/cn" target="_blank" rel="noopener noreferrer">YMSC, Tsinghua</a>. I received my PhD degree in physics at <a href="https://www.phys.vt.edu" target="_blank" rel="noopener noreferrer">Virginia Tech</a>.
+  </p>
+  
+  
+  <h2> Contact information </h2>
+  <p>
+  Hao Zou <br>Beijing Insitute of Mathematical Sciences and Applications <br>Huairou District, Beijing 101408, China
+  </p>  
+  <p>
+  Office: Room 1119, Fengyeju (Villa 11), Yanqi Island <br> E-mail: hzou "at" bimsa.cn, hzou "at" vt.edu
+  </p>
+  
+  
+  <p style="font-size:18px";> <strong>Useful links:</strong>
+    <a href="https://ymsc-strings.github.io" target="_blank" rel="noopener noreferrer">String Group at YMSC</a> | 
+    <a href="https://www.stringwiki.org/wiki/String_Theory_Wiki" target="_blank" rel="noopener noreferrer">String Theory Wiki</a> | 
+    <a href="http://mathsci.kaist.ac.kr/~jinhyun/useful.html" target="_blank" rel="noopener noreferrer">Some mathematical resources</a> |
+    <a href="http://researchseminars.org" target="_blank" rel="noopener noreferrer">Online seminars</a> 
+  </p>
 </div>
+
+
+<!--
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url | absolute_url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+-->
