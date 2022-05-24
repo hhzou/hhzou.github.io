@@ -37,7 +37,9 @@
 /* Prevent scroll on narrow devices */
 html,
 body {
-  overflow-x: hidden;
+    margin: 60px auto;
+    width: 70%;
+    overflow-x: hidden;
 }
 
 html {
