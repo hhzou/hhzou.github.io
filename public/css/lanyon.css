@@ -39,11 +39,11 @@ html,
 body {
     overflow-x: hidden;
     text-align: justify;
-    width: 50em;
 }
 
 html {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  margin: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
